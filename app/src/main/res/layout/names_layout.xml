@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="24sp">
+
+    <EditText
+        android:id="@+id/currentEt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:padding="18sp" />
+
+    <EditText
+        android:id="@+id/coupleEt"
+        android:hint="Couple name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:inputType="text"
+        android:padding="18sp" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="ENVIAR"
+        android:padding="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
